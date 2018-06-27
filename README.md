@@ -2,6 +2,8 @@
 
 An AHRS library for the Idea7 Bambot. Based on Paul Stoffregen's MahonyAHRS library.
 
+See https://github.com/PaulStoffregen/MahonyAHRS for the original
+
 ## Function Reference
 ##### begin(sampleFrequency)
 Begin the AHRS filter using a fixed sample frequency. Only use this if you are sure your sketch will call the update function at fixed frequency. sampleFrequency is specified in Hz
